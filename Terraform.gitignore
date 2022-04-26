@@ -1,0 +1,11 @@
+# Local .terraform directories
+**/dev/.terraform/*
+**/prod/.terraform/*
+
+# tfstate files
+**/dev/*.tfstate
+**/dev/*.tfstate.*
+**/prod/*.tfstate
+**/prod/*.tfstate.*
+
+**/*.json
