@@ -11,10 +11,10 @@ Repository that contains code for creating infra for a 3 tier application
     c. A cloud storage bucket (To store the remote backend for tfstate file)
 
 ## Resources to be created:
-VPC network
-Subnet (1 public / 1 private)
-Firewall rules allowing HTTP and SSH access
-Compute engine hosting nginx webserver
+1. VPC network
+2. Subnet (1 public / 1 private)
+3. Firewall rules allowing HTTP and SSH access
+4. Compute engine hosting nginx webserver
 
 ##  Steps:
 1. Navigate to the environment specific folder(e.g Dev)
